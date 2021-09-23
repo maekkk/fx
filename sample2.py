@@ -29,3 +29,14 @@ dir = 'C:\\pg'
 fle = filedialog.askopenfilename(filetypes = typ, initialdir = dir) 
 
 print(fle)
+
+#pandasのサンプル
+import pandas as pd
+
+# データの読み込み
+typ = [('テキストファイル','*.*')] 
+dir = 'C:\\pg'
+fle = filedialog.askopenfilename(filetypes = typ, initialdir = dir) 
+
+factories = pd.read_csv(fle, index_col=0)
+print(factories)
