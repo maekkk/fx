@@ -1,0 +1,9 @@
+numpyでimportエラー
+https://teratail.com/questions/317469
+
+環境変数に以下を追加したら解決した
+（場所はanaonda3があるパスを指定すること）
+
+\Anaconda3
+\Anaconda3\Scripts
+\Anaconda3\Library\bin
