@@ -20,3 +20,12 @@ plt.xlabel("x")
 plt.ylabel("y")
 #表示
 plt.show()
+
+#ファイル読み込みのサンプル
+from tkinter import filedialog
+
+typ = [('テキストファイル','*.*')] 
+dir = 'C:\\pg'
+fle = filedialog.askopenfilename(filetypes = typ, initialdir = dir) 
+
+print(fle)
